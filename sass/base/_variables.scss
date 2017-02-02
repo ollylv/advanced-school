@@ -1,0 +1,23 @@
+//=== fonts
+//=== colors
+//===
+
+
+$font-stack: 'Open Sans', sans-serif;
+
+//selector->color_modification->color->state
+
+$colors: (
+  def_white: #ffffff,
+  light_grey: #f6f6f6,
+  dark_grey: #e7e7e7,
+  font_light_grey: #b0b0b0,
+  font_dark_grey: #bcbcbc,
+  btn_green: #6ec97d,
+  btn_red: #f25d49,
+  btn_red_hover: #eb5d4a
+);
+
+$font_size: (
+  font_size_small: 14px
+)

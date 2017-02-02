@@ -1,0 +1,54 @@
+.agent-container {
+  width: 425px;
+  height: 140px;
+  float:left;
+  margin: 150px 45px 10px 50px;
+  border: 1px solid #cececf;
+
+  img {
+    margin: 20px;
+    float: left;
+  }
+
+  h2 {
+    margin: 15px 0 0 0;
+    float: left;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    span {
+      display: block;
+      font-weight: 400;
+      text-transform: none;
+    }
+  }
+
+  .call-agent {
+    position: relative;
+    margin: 25px 0 20px 0;
+    float: left;
+    cursor: pointer;
+
+    span {
+      color: map-get($colors, def_white);
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 17px;
+      text-transform: uppercase;
+      @include center-it;
+    }
+  }
+
+  .btn-call {
+    width: 210px;
+    background-color: #f25d49;
+    background-image: linear-gradient(to top, #e95a46 0%, #fa705d 100%);
+
+    &:hover {
+      box-shadow: inset 0 3px 32px rgba(0, 0, 0, 0.35);
+      background-color: #eb5d4a;
+    }
+  }
+}

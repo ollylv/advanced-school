@@ -1,0 +1,35 @@
+.footer-contacts {
+  width: 60%;
+  float:left;
+
+  .footer-contacts-container {
+    width: 80%;
+    margin: 20px 0 60px 50px;
+    float: left;
+
+    h3 {
+      width: 110px;
+      margin: 30px 120px 0 0;
+      float: left;
+      font-size: 14px;
+      line-height: 22px;
+      font-weight: 400;
+
+      span {
+        display: block;
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.copyrights {
+  width: 300px;
+  margin: 50px 170px 50px 50px;
+  float: left;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}

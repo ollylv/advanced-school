@@ -1,0 +1,19 @@
+@mixin shadow-bottom {
+  -webkit-box-shadow: -12px -13px 20px 20px #c5c5c5;
+  -moz-box-shadow: -12px -13px 20px 20px #c5c5c5;
+  box-shadow: -12px -13px 20px 20px #c5c5c5;
+}
+
+@mixin shadow-left {
+  -webkit-box-shadow: -12px 0px 20px 0px #c5c5c5;
+  -moz-box-shadow: -12px 0px 20px 0px #c5c5c5;
+  box-shadow: -12px 0px 20px 0px #c5c5c5;
+}
+
+@mixin center-it {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
